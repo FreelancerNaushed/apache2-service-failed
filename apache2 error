@@ -1,0 +1,13 @@
+#Problem Details 
+#How to solve apache2 error, job for apache2.service failed because the control process exited with error code. see #systemctl status apache2.service and journalctl -xe for details.
+
+#Youtube
+#https://www.youtube.com/watch?v=3NyvfDvMOrU
+
+#Commands:
+sudo apt-get purge apache2
+sudo apt-get install apache2
+apache2 -v
+sudo service apache2 stop
+sudo service apache2 start
+sudo service apache2 restart
